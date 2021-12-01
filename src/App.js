@@ -2,8 +2,11 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PaginaPrincipala from "./pages/PaginaPrincipala";
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Sezoane from './pages/Sezoane';
+import Concurenti from './pages/Concurenti';
+import Amulete from './pages/Amulete';
+import Battleuri from './pages/Battleuri';
+import Retete from './pages/Retete';
 
 function App() {
   return (
@@ -11,8 +14,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" exact element={<PaginaPrincipala />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/sezoane" element={<Sezoane />} />
+        <Route path="/concurenti" element={<Concurenti />} />
+        <Route path="/amulete" element={<Amulete />} />
+        <Route path="/battleuri" element={<Battleuri />} />
+        <Route path="/retete" element={<Retete />} />
       </Routes>
     </Router>
   );

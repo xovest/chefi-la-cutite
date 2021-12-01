@@ -21,11 +21,20 @@ const Navbar = () => {
                 <NavLink to="/" activeStyle>
                     Pagina Principală
                 </NavLink>
-                <NavLink to="/about" activeStyle>
-                    About
+                <NavLink to="/sezoane" activeStyle>
+                    Sezoane
                 </NavLink>
-                <NavLink to="/contact" activeStyle>
-                    Contact
+                <NavLink to="/concurenti" activeStyle>
+                    Concurenți
+                </NavLink>
+                <NavLink to="/amulete" activeStyle>
+                    Amulete
+                </NavLink>
+                <NavLink to="/battleuri" activeStyle>
+                    Battle-uri
+                </NavLink>
+                <NavLink to="/retete" activeStyle>
+                    Rețete
                 </NavLink>
             </NavMenu> 
            </Nav> 

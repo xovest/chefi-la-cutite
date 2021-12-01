@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const About = () => {
+function Retete() {
     return (
         <div
             style={{
@@ -10,9 +10,9 @@ const About = () => {
                 height: '100vh'
             }}
         >
-            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, totam.</h1>
+           <h1>Toate retetele</h1> 
         </div>
     );
 };
 
-export default About;
+export default Retete;

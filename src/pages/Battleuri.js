@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+function Battleuri() {
     return (
         <div
             style={{
@@ -10,9 +10,9 @@ function Contact() {
                 height: '100vh'
             }}
         >
-           <h1>Contact Us</h1> 
+           <h1>Toate Battleurile</h1> 
         </div>
     );
 };
 
-export default Contact;
+export default Battleuri;
