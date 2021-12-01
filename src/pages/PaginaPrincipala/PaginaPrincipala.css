@@ -35,4 +35,5 @@
   transform: translate(-50%, 0%);
   font-size: 40px;
   pointer-events: none;
+  text-size-adjust: auto;
 }

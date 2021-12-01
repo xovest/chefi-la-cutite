@@ -1,12 +1,12 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PaginaPrincipala from "./pages/PaginaPrincipala";
-import Sezoane from './pages/Sezoane';
-import Concurenti from './pages/Concurenti';
-import Amulete from './pages/Amulete';
-import Battleuri from './pages/Battleuri';
-import Retete from './pages/Retete';
+import PaginaPrincipala from "./pages/PaginaPrincipala/PaginaPrincipala";
+import Sezoane from './pages/Sezoane/Sezoane';
+import Concurenti from './pages/Concurenti/Concurenti';
+import Amulete from './pages/Amulete/Amulete';
+import Battleuri from './pages/Battleuri/Battleuri';
+import Retete from './pages/Retete/Retete';
 
 function App() {
   return (
