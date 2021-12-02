@@ -24,6 +24,7 @@ const Sezoane = () => {
                 <div className="pill">
                     <label>Sezonul</label>
                     <select data-custom>
+                        <option value="toate">Toate</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -36,14 +37,15 @@ const Sezoane = () => {
                     </select>
                 </div>
             </div>
-            <div class="main-info-sez">
-                Detalii despre sezon
+            <div className="main-info-sez">
+                <h1>Detalii</h1>
+                <h6>Difuzat: </h6>
             </div>
-            <div class="grid-container-sez">
-                <div class="grid-item-sez">Concurenti</div>
-                <div class="grid-item-sez">Amulete</div>
-                <div class="grid-item-sez">Battle-uri</div>
-                <div class="grid-item-sez">Rețete</div>
+            <div className="grid-container-sez">
+                <div className="grid-item-sez">Concurenti</div>
+                <div className="grid-item-sez">Amulete</div>
+                <div className="grid-item-sez">Battle-uri</div>
+                <div className="grid-item-sez">Rețete</div>
             </div>
         </>
     );
