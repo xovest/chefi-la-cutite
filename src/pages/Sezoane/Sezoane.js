@@ -52,3 +52,7 @@ const Sezoane = () => {
 };
 
 export default Sezoane;
+
+/*
+Gotta add a lot of things in here, got them in mind, but still
+*/
