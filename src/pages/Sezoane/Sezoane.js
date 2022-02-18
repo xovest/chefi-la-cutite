@@ -40,6 +40,8 @@ const Sezoane = () => {
             <div className="main-info-sez">
                 <h1>Detalii</h1>
                 <h6>Difuzat: </h6>
+                <h6>Echipe:</h6>
+                <h6>Câștigător:</h6>
             </div>
             <div className="grid-container-sez">
                 <div className="grid-item-sez">Concurenti</div>
@@ -52,7 +54,3 @@ const Sezoane = () => {
 };
 
 export default Sezoane;
-
-/*
-Gotta add a lot of things in here, got them in mind, but still
-*/
