@@ -3,6 +3,7 @@
 .custom-select-options, 
 .custom-select-option {
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .custom-select-container {

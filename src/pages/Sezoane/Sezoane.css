@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .pill {
   background-color: orangered;
   border: none;

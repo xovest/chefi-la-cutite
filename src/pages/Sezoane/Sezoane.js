@@ -95,9 +95,19 @@ const Sezoane = () => {
                 : 7/MAR/2016 - prezent
                 </span>
             </p>
-            <pre>
-                Failed to transform TEXT Echipe:{"\n"}TypeError: cannot read property 'tagName' of undefined
-            </pre>
+            <p
+                style={{
+                    position: "absolute",
+                    left: 81,
+                    top: 385,
+                    fontWeight: 700,
+                    fontSize: 36,
+                    textAlign: "center",
+                    color: "rgba(255,69,0,0.84)",
+                    }}
+            >
+                Echipe:
+            </p>
             <p
                 style={{
                 position: "absolute",
@@ -133,7 +143,7 @@ const Sezoane = () => {
             </p>
             <p
                 style={{
-                width: 374,
+                width: 400,
                 height: 40,
                 position: "absolute",
                 left: 230,
@@ -141,13 +151,14 @@ const Sezoane = () => {
                 fontSize: 36,
                 textAlign: "center",
                 color: "rgba(255,69,0,0.84)",
+                wordBreak: "break-all",
                 }}
             >
                 Chef Florin Dumitrescu
             </p>
             <p
                 style={{
-                width: 394,
+                width: 420,
                 height: 40,
                 position: "absolute",
                 left: 220,
@@ -155,6 +166,7 @@ const Sezoane = () => {
                 fontSize: 36,
                 textAlign: "center",
                 color: "rgba(255,69,0,0.84)",
+                wordBreak: "break-all",
                 }}
             >
                 Chef Cătălin Scărlătescu
@@ -165,7 +177,7 @@ const Sezoane = () => {
                 viewBox="0 0 35 35"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                style={{ position: "absolute", left: 635, top: 359 }}
+                style={{ position: "absolute", left: 650, top: 400 }}
                 preserveAspectRatio="none"
             >
                 <path d="M0 0H35V35H0V0Z" fill="#737070" />
@@ -175,8 +187,8 @@ const Sezoane = () => {
                 width: 35,
                 height: 35,
                 position: "absolute",
-                left: 635,
-                top: 394,
+                left: 650,
+                top: 436,
                 background: "#000",
                 borderWidth: 1,
                 borderColor: "#fff",
@@ -188,7 +200,7 @@ const Sezoane = () => {
                 viewBox="0 0 35 35"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                style={{ position: "absolute", left: 635, top: 429 }}
+                style={{ position: "absolute", left: 650, top: 472 }}
                 preserveAspectRatio="none"
             >
                 <path d="M0 0H35V35H0V0Z" fill="#C8210A" />
