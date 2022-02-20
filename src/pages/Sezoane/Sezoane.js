@@ -205,50 +205,66 @@ const Sezoane = () => {
             >
                 <path d="M0 0H35V35H0V0Z" fill="#C8210A" />
             </svg>
-            <img
-                src={conc}
-                style={{
-                width: 830,
-                height: 402,
-                position: "absolute",
-                left: "-1px",
-                top: 719,
-                objectFit: "cover",
-                }}
-            />
-            <img
-                src={amule}
-                style={{
-                width: 830,
-                height: 402,
-                position: "absolute",
-                left: 829,
-                top: 719,
-                objectFit: "cover",
-                }}
-            />
-            <img
-                src={battle}
-                style={{
-                width: 830,
-                height: 400,
-                position: "absolute",
-                left: 829,
-                top: 1121,
-                objectFit: "cover",
-                }}
-            />
-            <img
-                src={retete}
-                style={{
-                width: 830,
-                height: 400,
-                position: "absolute",
-                left: "-1px",
-                top: 1121,
-                objectFit: "cover",
-                }}
-            />
+            <a href="/concurenti">
+                <img
+                    className="grd"
+                    src={conc}
+                    style={{
+                    width: 830,
+                    height: 402,
+                    position: "absolute",
+                    left: "-1px",
+                    top: 719,
+                    objectFit: "cover",
+                    cursor: "pointer",
+                    }}
+                />
+            </a>
+            <a href="/amulete">
+                <img
+                    className="grd"
+                    src={amule}
+                    style={{
+                    width: 830,
+                    height: 402,
+                    position: "absolute",
+                    left: 829,
+                    top: 719,
+                    objectFit: "cover",
+                    cursor: "pointer",
+                    }}
+                />
+            </a>
+            <a href="/battleuri">
+                <img
+                    className="grd"
+                    src={battle}
+                    style={{
+                    width: 830,
+                    height: 400,
+                    position: "absolute",
+                    left: 829,
+                    top: 1121,
+                    objectFit: "cover",
+                    cursor: "pointer",
+                    }}
+                />
+            </a>
+            <a href="/retete">
+                <img
+                    className="grd"
+                    src={retete}
+                    style={{
+                    width: 830,
+                    height: 400,
+                    position: "absolute",
+                    left: "-1px",
+                    top: 1121,
+                    objectFit: "cover",
+                    cursor: "pointer",
+                    }}
+                />
+            </a>
             <p
                 style={{
                 position: "absolute",
@@ -258,6 +274,8 @@ const Sezoane = () => {
                 fontWeight: 700,
                 textAlign: "center",
                 color: "#ff4500",
+                zIndex: 1,
+                pointerEvents: "none",
                 }}
             >
                 Concurenți:
@@ -271,6 +289,8 @@ const Sezoane = () => {
                 fontWeight: 700,
                 textAlign: "center",
                 color: "#ff4500",
+                zIndex: 1,
+                pointerEvents: "none",
                 }}
             >
                 Amulete:
@@ -284,6 +304,8 @@ const Sezoane = () => {
                 fontWeight: 700,
                 textAlign: "center",
                 color: "#ff4500",
+                zIndex: 1,
+                pointerEvents: "none",
                 }}
             >
                 Battle-uri:
@@ -297,6 +319,8 @@ const Sezoane = () => {
                 fontWeight: 700,
                 textAlign: "center",
                 color: "#ff4500",
+                zIndex: 1,
+                pointerEvents: "none",
                 }}
             >
                 Rețete
