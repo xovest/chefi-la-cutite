@@ -16,3 +16,5 @@ function Concurenti() {
 };
 
 export default Concurenti;
+
+// need to do some of this tho for some modifz
