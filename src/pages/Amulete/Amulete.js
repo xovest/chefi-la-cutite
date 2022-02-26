@@ -1,56 +1,13 @@
 import React from 'react'
+import './Amulete.css'
 
 function Amulete() {
     return (
-        <div
-            style={{
-            width: "auto",
-            height: 1024,
-            position: "relative",
-            overflow: "hidden",
-            background: "blue",
-        }}
-        >
-        <div
-            style={{
-            width: 710,
-            height: 500,
-            position: "absolute",
-            left: "-1px",
-            top: "-1px",
-            background: "#c4c4c4",
-            }}
-        />
-        <div
-            style={{
-            width: 710,
-            height: 500,
-            position: "absolute",
-            left: 927,
-            top: "-1px",
-            background: "#c4c4c4",
-            }}
-        />
-        <div
-            style={{
-            width: 710,
-            height: 505,
-            position: "absolute",
-            left: "-1px",
-            top: 523,
-            background: "#c4c4c4",
-            }}
-        />
-        <div
-            style={{
-            width: 710,
-            height: 500,
-            position: "absolute",
-            left: 937,
-            top: 524,
-            background: "#c4c4c4",
-            }}
-        />
+        <div className='container'>
+            <div className='box'>Sezonul 6</div>
+            <div className='box'>Sezonul 7</div>
+            <div className='box'>Sezonul 8</div>
+            <div className='box'>Sezonul 9</div>
         </div>
     );
 };
