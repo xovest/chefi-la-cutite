@@ -4,15 +4,36 @@ function Retete() {
     return (
         <div
             style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh'
-            }}
+            width: 1648,
+            height: 1024,
+            position: "relative",
+            overflow: "hidden",
+            background: "#fff",
+        }}
         >
-           <h1>Toate retetele</h1> 
+        <div
+            style={{
+            width: 277,
+            height: 1024,
+            position: "absolute",
+            left: "-1px",
+            top: "-1px",
+            background: "#6d6d6d",
+            }}
+        />
+        <div
+            style={{
+            width: 1371,
+            height: 1024,
+            position: "absolute",
+            left: 276,
+            top: "-1px",
+            background: "#dadada",
+            }}
+        />
         </div>
     );
 };
 
 export default Retete;
+// with some lines
